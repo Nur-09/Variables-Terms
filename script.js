@@ -10,7 +10,7 @@ console.log(country);
 
 // 2
 let temp = prompt('Введите погоду')
-if(temp >= 20 && temp < 0){
+if(temp >= -20 && temp < 0){
     alert('холод')
 }else if(temp >= 0 && temp < 15){
     alert('прохладно')
